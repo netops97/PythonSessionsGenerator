@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSessionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SessionData SessionId="Imported/Ubuntu Desktop" SessionName="Ubuntu Desktop" ImageKey="computer" Host="192.168.0.56" Port="22" Proto="SSH" PuttySession="Default Settings" Username="bob" ExtraArgs="" SPSLFileName="" />
+  <SessionData SessionId="Imported/Wordpress Server" SessionName="Wordpress Server" ImageKey="computer" Host="192.168.0.40" Port="22" Proto="SSH" PuttySession="Default Settings" Username="bob" ExtraArgs="-pw Fly2Mars" SPSLFileName="" />
+</ArrayOfSessionData>
