@@ -1,5 +1,8 @@
 import sys
 
+# Preparing script to be managed by git.
+# Change #1
+
 header = '<?xml version="1.0" encoding="utf-8"?> \n'
 
 ArrayOfSessionDataOpen = '<ArrayOfSessionData '
