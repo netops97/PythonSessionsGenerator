@@ -30,9 +30,9 @@ class SessionData:
 
 my_sessionData = SessionData()
 
-f = open("SiteList.txt", "r")   # here we open file "SiteList.XML". Second argument used to identify that we want
+f = open("SiteList.txt", "r")   # here we open file "SiteList.txt". Second argument identifies that we want
                                 #  to read the file.
-                                # Note: if you want to write to the file use "w" as second argument
+
 fout = open("Sessions.XML", "w")     # here we open file "XXX.XML". Second argument identifies that we want
                                 #  to write to the file.
 
