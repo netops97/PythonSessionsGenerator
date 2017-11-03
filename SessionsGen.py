@@ -1,7 +1,8 @@
 import sys
 
-# Preparing script to be managed by git.
-# Change #1
+# SessionsGen generates "well formed" XML files that can be imported by
+# SuperPutty to create a large number (<500) of putty sessions quickly.
+# These sessions can then be used to monitor large (or small) outages.
 
 header = '<?xml version="1.0" encoding="utf-8"?> \n'
 
