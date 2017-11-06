@@ -4,6 +4,10 @@ import sys
 # SuperPutty to create a large number (<500) of putty sessions quickly.
 # These sessions can then be used to monitor large (or small) outages.
 
+# the following defines the different components of the XML structure.
+# the header, the opening and closing constructs of the array of session
+# data,etc.
+
 header = '<?xml version="1.0" encoding="utf-8"?> \n'
 
 ArrayOfSessionDataOpen = '<ArrayOfSessionData '
@@ -38,6 +42,7 @@ fout = open("Sessions.XML", "w")     # here we open file "XXX.XML". Second argum
                                 #  to write to the file.
 
 fout.write(header)
+
 fout.write(ArrayOfSessionDataOpen + xmlns1 + xmlns2 + ArrayOfSessionDataEnd)
 siteCount = 0
 for line in f.readlines():   # read lines
@@ -60,6 +65,7 @@ for line in f.readlines():   # read lines
     ##print(siteCount)
 
 fout.write(ArrayOfSessionDataClose)
+
 f.close()                   # It's important to close the file to free up any system resources.
 fout.close()
 
